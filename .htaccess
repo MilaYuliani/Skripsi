@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+
+RewriteRule ^dashboard$ dashboard.php [L]
+RewriteRule ^crawling$ crawling.php?module=crawling [L]
+RewriteRule ^clustering$ clustering.php?module=clustering [L]
+RewriteRule ^prepocesing$ prepocesing.php?module=prepocesing [L]
+RewriteRule ^pengujian$ pengujian.php?module=pengujian [L]
+RewriteRule ^maxcapturing$ maxcapturing.php?module=maxcapturing [L]
+RewriteRule ^ner_rule$ ner_rule.php?module=ner_rule [L]
+RewriteRule ^ner_testing$ ner_testing.php?module=ner_testing [L]
+RewriteRule ^hybrid_tfidf$ hybrid_tfidf.php?module=hybrid_tfidf [L]
+RewriteRule ^profil$ profil.php?module=profil [L]
+RewriteRule ^visual$ visual.php?module=visual [L]
+RewriteRule ^visual2$ visual2.php?module=visual2 [L]
+RewriteRule ^label$ label.php?module=label [L]
+</IfModule> 

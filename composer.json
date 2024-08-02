@@ -1,0 +1,17 @@
+{
+    "name": "acer/program_ta",
+    "autoload": {
+        "psr-4": {
+            "Acer\\ProgramTa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mila Yuliani",
+            "email": "yulianimila13@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.0"
+    }
+}
